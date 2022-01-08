@@ -6,15 +6,9 @@ main() {
 	scanf("%d %c %d", &a, &phepToan, &b);
 	switch (phepToan)
 	{
-		case '+':
-			printf("Phep toan %d + %d = %d", a , b, a+b);
-			break;
-		case '-':
-			printf("Phep toan %d - %d = %d", a, b, a-b);
-			break;
-		case '*':
-			printf("Phep toan %d * %d = %d", a, b, a*b);
-			break;
+		case '+': printf("Phep toan %d + %d = %d", a , b, a+b); break;
+		case '-': printf("Phep toan %d - %d = %d", a, b, a-b); break;
+		case '*': printf("Phep toan %d * %d = %d", a, b, a*b); break;
 		case '/':
 			if(b != 0)
 			{
